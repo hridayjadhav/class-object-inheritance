@@ -19,15 +19,15 @@ class Student extends person{           // a class named Student that extends (i
 
     }
     addOn(){
-        console.log(`For now ${this.myName} is studying.`)
+        console.log(`My hobby is ${this.myHobby}`)
     }
 }
 
 const person1 = new person('Hriday', 21, 'SE');
 const person2 = new person('Harshal', 21, 'BCCA');
-const stud = new Student('Hriday', 21, 'SE');
+const hob = new Student('Hriday', 21, 'SE', 'Football');
 
 person1.data();
 person2.data();
-stud.data();
-stud.addOn();
+hob.data();
+hob.addOn();
